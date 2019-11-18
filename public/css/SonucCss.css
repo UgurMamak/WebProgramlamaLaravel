@@ -1,0 +1,37 @@
+.onay, .hata, .bilgi, .ikaz {
+background-repeat: no-repeat;
+background-position: 10px center;
+height: 35px;
+text-transform: uppercase;
+font-size: 11px;
+line-height: 22px;
+margin-bottom: 20px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 50px;,
+-webkit-border-radius: 3px;  
+-moz-border-radius: 3px;  
+border-radius: 3px
+}
+
+.onay     
+{
+background-color: #EBF8D6;
+border: 1px solid #A6DD88;
+color: #555555;
+background-image: url('/img/onayy.png');
+-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset; 
+-moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset
+}
+
+.hata      {
+background-color: #FFECE6;
+border: 1px solid #FF936F;
+color: #555555;
+background-image: url('/img/hata.png');
+-webkit-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset; 
+-moz-box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset;
+box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(255, 255, 255, 0.9) inset
+}

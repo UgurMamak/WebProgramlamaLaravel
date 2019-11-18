@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+	font-family: 'Cuprumffuregular';
+}
+.active, .accordion:hover {
+   
+    border-top:3px solid #6699ff;
+}
+.active, .accordion:leave{border-top:none;}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;  
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color:#6699ff;
+    max-height: 0;
+    overflow: hidden;
+      
+}
+
+.devam 
+{
+    background-color:#6699ff;
+    color: #fff;
+    cursor: pointer;
+    width:70px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    transition: 0.4s;
+    height:30px;
+    margin-bottom:10px;
+}
+.kentkutu{border:1px solid #d8d8d8;}
+
+.numkutu
+{
+	    background: #535353;
+		width:auto;
+		height:20px;
+		min-width:20px;
+		color:#FFF;
+		margin:3px;
+		padding:5px;
+		border-radius:5px;
+		cursor:pointer;
+		text-align:center;
+		float:left;
+		font-size:11px;
+}
+.numkutu2
+{
+	background:#fc7100;
+		width:auto;
+		height:20px;
+		min-width:20px;
+		color:#FFF;
+		margin:3px;
+		padding:5px;
+		border-radius:5px;
+		cursor:pointer;
+		text-align:center;
+		float:left;
+		font-size:12px;
+}
+

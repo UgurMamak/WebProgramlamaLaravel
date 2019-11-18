@@ -1,0 +1,301 @@
+@charset "utf-8";
+/* CSS Document */
+
+#container
+{
+	position:relative;
+	margin:auto;
+	max-width:990px;
+	height:auto;
+	background:#FFF;
+	 margin-top:0px;   
+}
+
+#content
+{
+	position:relative;
+	margin-left:20px;
+	width:600px;
+	height:auto;
+	
+	margin-bottom: 40px;
+	margin-top:20px;
+
+}
+.baslik
+{
+	font-family: 'Cuprumffuregular';
+    font-size: 15px;
+    line-height: normal;
+    font-weight: normal;
+    color: #fff;
+    margin: 0px;
+    padding: 9px 14px 8px 42px;	
+    background: #6699ff url(../img/cat-icon.png) no-repeat 5px center;
+	margin-top:10px;
+	
+	}
+
+
+
+
+
+#baskanMesaj
+{
+	width:575px;
+	height:300px;
+	
+}
+
+	
+#mesaj1
+{
+	width:250px;
+	height:300px;
+	float:left;
+	
+}
+#mesaj2
+{
+	margin-left:10px;
+	float:left;
+	width:300px;
+	height:250px;
+	}
+	
+.post-title {
+    font-family: 'Cuprumffuregular';
+    font-size: 15px;
+    font-weight: normal;
+    /* font-weight: normal; */
+    margin: 0 0 10px 0;
+    color: #6699ff;
+}
+	
+	/*#SecondSlider
+	{
+	width:575px;
+	height:300px;
+	background:#F00;
+	}*/
+/*----------------------------------------------------------------------------------	*/
+	
+	#sagTaraf
+	{
+		
+		
+		width:300px;
+		height:auto;
+		margin-top:20px;
+		margin-left:20px;	
+	}
+	
+	.hizala{float:left}
+	
+	 .clear{ clear:both;}
+	 
+	 .solBaslik
+	 {		
+	font-family: 'Cuprumffuregular';
+    font-size: 15px;
+    line-height: normal;
+    font-weight: normal;
+    color: #fff;  
+    padding: 9px 14px 8px 42px;
+    background: #6699ff url(../img/cat-icon.png) no-repeat 5px center;
+     margin:0px;
+	 width:250px;
+	margin-top:10px;	    	
+	 }
+	 
+	/* --------------------------------------------*/
+	.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color:#FFF;
+	width:300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color:#FFF;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+ background:#6699ff;
+ color:#FFF;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+	width:275px;
+}
+
+.ulduyurular img
+{
+	float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 14px;
+}
+
+.ulduyurular li
+{list-style:none;   
+width:250px;
+height:100px;
+}
+	
+	.ulduyurular li a
+	{
+	color: #6699ff;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+	text-decoration:none;
+
+	}
+	
+	.oneriTakip
+	{
+		width:300px;
+		height: 325px;
+		
+	
+	}
+	.bilgioneriBox:hover
+	{
+		cursor:pointer;
+	}
+	.bilgioneriBox
+	{
+		height: 150px;
+		width:150px;
+		float:left;
+		
+	}
+	
+	
+	
+	
+	
+	
+/*----------------------------------------------------------------------------------	*/
+	#footer
+	{
+		
+		position:relative;
+	margin:auto;
+	width:990px;
+	height:300px;
+background:#6699ff;
+	margin-bottom: 40px;
+	margin-top:20px;
+	
+	}
+
+	#footer .widget {
+    width: 100% !important;
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+#footer .textwidget p {
+    color: #fff;
+    line-height: 22px;
+}
+#footer .widget-title {
+    font-family: 'Cuprumffuregular';
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+    /* text-transform: uppercase; */
+    margin: 0 0 20px 0;
+	
+}
+#footer .textwidget p {
+    color: #fff;
+    line-height: 22px;
+	font-size:12px;
+}
+
+.div {
+    float: left;
+    height: 200px;
+    width: 303px;
+    margin: 20px 0 0 10px;
+    color: #FFFFFF;
+	font-weight:500;
+
+}
+
+
+
+.fleft{float:left; margin-left:10px;}
+
+#enalt
+{
+	position:absolute;
+	width:980px;
+	height:100px;
+	background: #4ca4f6;
+	bottom:0px;
+	color:#FFF;
+	font-size:12px;
+	padding:10px 0 0 10px;
+}
+
+
+#top-back
+{
+	position: absolute;
+    bottom: 6px;
+    right: 6px;
+    z-index: 1;
+	float:right;
+}
+#top-back a {
+    display: block;
+    text-indent: -9999px;
+    width: 46px;
+    height: 32px;
+    background: rgba(0,0,0,0.3) url(../img/back-to-top.png) no-repeat center;
+}
+#begen
+{
+	background: #4267b2;
+    border: 1px solid #4267b2;
+    color: #fff;
+    cursor: pointer;
+	margin-left:10px;
+	border-radius:5px;
+}
+#begen:hover {
+    background: #365899;
+    border: 1px solid #365899;
+}
+#tweet{    background-color: #1b95e0;border: 1px solid #1b95e0;color: #fff;
+    cursor: pointer; border-radius:5px;}
+#tweet:hover{    background-color: #0c7abf;}
+

@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+#anadiv
+{
+	width:990px;
+	height:auto;
+	min-height:300px;
+	
+}
+#solmevzuat
+{
+	position:absolute;
+	width:300px;
+	height:300px;
+	margin:25px 0 0 20px;
+	float: left !important;
+	
+}
+.arrow-list
+{
+	position:relative;
+	float: left;
+    overflow: hidden;
+	width: 100%;
+	margin:0 0 0 -40px;
+	
+	
+}
+.arrow-list li {
+	position:relative;
+    background: #6699ff url(../img/arrow-style.png) no-repeat left center;
+    border-bottom: 1px dashed #fff;
+   padding-left: 17px;
+   display: block; 
+   
+}
+
+.arrow-list li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 25px;
+    text-decoration: none;
+    border: none;
+		
+}
+
+#sagmevzuat
+{
+	width:640px;
+	min-height:250px;
+	height:auto;
+	float: right !important;
+	margin:35px 20px 0 0;
+}
+.post-title {
+    font-family: 'Cuprumffuregular';
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    color: #6699ff;
+}
+a:hover {
+    color: #08c2c2;
+}
+
+
+
+
+

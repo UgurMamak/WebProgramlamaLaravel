@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+<!--üst menü kodları-->
+
+
+#header{ width: 100%;height:auto;margin:auto;}
+#top-menu
+{
+	width: 990px;
+	height:35px;
+	margin:auto;
+	background:#6699ff;
+}
+
+#top-menu ul li
+{
+	float:left;
+	list-style-type:none;
+	height:35px;
+}
+#top-menu ul li a
+{
+	text-decoration:none;
+	text-align:center;
+	display: block;
+    padding: 6px 16px;
+    border-right: 1px solid rgba(0,0,0,0.1);
+    color: #fff;
+    font-size: 16px;
+}
+------------------------------------------------------------------------------
+
+<!--alt menü kodları-->
+
+#container{margin:auto;}
+#container:hover{margin:auto;}
+#main-menu
+{
+	 position:relative;
+	 margin:auto;
+	 background-color:#6699ff;
+	 width:990px;
+	 height:40px;
+}
+#main-menu ul{list-style:none;}
+#main-menu > ul{list-style:none;	margin:0;	padding:0;}
+#main-menu > ul > li > ul{list-style:none;	margin:0;	padding:0;
+	position: absolute;
+    left: 0;
+    top: 42px;
+    z-index: 100;
+}
+
+#main-menu > ul > li
+{
+  float: left;
+  position: relative;
+  width: 110px;
+  text-align:center;
+}
+#main-menu ul li ul{display: none;}
+#main-menu ul li:hover ul{display: block;}
+#main-menu ul li a{
+  font-size:12px;
+  text-decoration: none;
+  background:#6699ff;
+  display: block;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;  
+  border-left: 1px solid #6b9ff4;
+  padding: 15px 10px;
+  border-right: 1px solid #4ca4f6;
+  line-height: normal;
+
+}
+
+#main-menu li a:hover{background:#4ca4f6;}
+
+#main-menu ul li ul li a{
+	
+ background:#6699ff;
+  text-align:left;
+  font-size:12px;
+  width:160px;
+  padding-top:10px;
+  padding-bottom:10px;
+
+}
+.sf-menu {
+    line-height: 1.0;
+    overflow: visible !important;
+}
+
+.sf-menu .sub-menu {
+    overflow: visible !important;
+    border: 1px solid #4ca4f6;
+}
+
+#uyarı
+{
+	 width: 100%;height:auto;margin:auto;
+	 background:#FFF; 
+}
+#uyarı p
+{
+	color:#000;
+	font-size:36px;
+	font-family:"Times New Roman";
+	font-weight:bold;
+  margin: auto;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+table  tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+.isimlitd
+{font-size:11px;}
+table  tr td {
+    color: #333;
+    padding: 9px 10px;
+    vertical-align: top;
+    border: none;
+}
+#uyeler
+{
+	border:1px solid #dddddd;
+}
+
+
+.post-content p
+{
+	color: #989898;
+	font-size: 16px;
+	    font-family: inherit;
+    font-weight: normal;
+}
+
+.post-content p a
+{
+	text-decoration:none;
+	color: #027393;
+}
+.post-content p a:hover
+{color: #08c2c2;
+}
+.post-content ol
+{
+	color: #989898;
+}
+#anadiv2
+{
+	width:990px;
+	height:auto;
+	min-height:700px;
+	
+}
+
+
+hr{  background-color: #CCC;}
+.col04 {
+    width: 220px;
+    float: left;
+    display: inline;
+    margin: 10px 20px 10px 10px;
+}

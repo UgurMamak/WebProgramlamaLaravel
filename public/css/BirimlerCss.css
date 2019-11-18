@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family: 'Cuprumffuregular';
+}
+
+
+
+table{
+background: #fff;
+border-radius: 3px;
+margin: 0 0 18px;
+border: 1px solid #dddddd;
+border-collapse: separate;
+ border-spacing: 2px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table tbody tr td {
+    color: #333;
+    padding: 5px 10px;
+    vertical-align: top;
+    border: none;
+	
+}
+tr td, table tr td{
+    display: table-cell;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+}
+table tr:nth-child(even)
+{background-color: #f2f2f2; }
+a {color: #027393; text-decoration:none;}

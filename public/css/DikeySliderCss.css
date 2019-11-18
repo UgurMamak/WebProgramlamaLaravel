@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+@keyframes hareket1{
+		from{ top:385px; opacity:0.5;}to{top:0px; opacity:1;}
+	}
+@keyframes hareket2{
+		from{top:385px;opacity:1;}to{top:0px;opacity:1;}
+	}
+#second-slider{
+	width:600px;
+	height:420px;	
+	overflow:hidden;
+	position:relative;
+	
+	}
+.slayt2{
+	
+	width:600px;
+	height:385px;
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	right:-700px;
+    opacity:0.5;
+
+	}
+	
+.ileri2,.geri2{
+	width:25px;
+	height:25px;
+	line-height:30px;
+	text-align:center;
+	font-weight:900;
+	position:absolute;
+	top: 92%;
+	cursor:pointer;
+	border: 2px solid#6699ff;
+	color:#6699ff;
+	}
+	.ileri2:hover,.geri2:hover
+	{
+		background-color:#6699ff;
+		color:#FFF;
+	}
+	
+	
+	
+.aciklama2{
+	width:100%;
+	height:auto;	  
+	position:absolute;
+	 display: block;
+    z-index: 1000;
+    background-color: #6699ff;
+	padding: 5px 0 0 5px;
+	color:white;
+	}
+#slaytsirasi2 ul{ list-style: none; padding:0; margin:0;}
+#slaytsirasi2 ul li
+{ display:inline-block; padding:0.5em; background-color:#FFF;
+ border: 3px solid#6699ff; border-radius:50%; transition:all .5s linear;}
+#slaytsirasi2 ul li:hover{ background-color:#6699ff;}
+.aktifLi2{ background-color:#6699ff !important;}
+#slaytsirasi2{ position: absolute; bottom:0px;left:40px;}

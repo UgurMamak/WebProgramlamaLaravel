@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+table{
+background: #fff;
+border-radius: 3px;
+margin: 0 0 18px;
+border: 1px solid #dddddd;
+border-collapse: separate;
+ border-spacing: 2px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table tbody tr td {
+    color: #333;
+    padding: 9px 10px;
+    vertical-align: top;
+    border: none;
+}
+tr td, table tr td{
+    display: table-cell;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: left;
+}
+
+
+table tr:nth-child(even)
+{background-color: #f2f2f2; 
+   
+}
+
+
+/*body {
+    font-family: 'Cuprumffuregular';
+    font-size: 14px;   
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+strong, b {
+    font-weight: bold;
+    line-height: inherit;
+}
+
+table {
+border-collapse: collapse;
+width: 100%;
+border: 1px solid #dddddd;
+background: #fff;
+margin: 0 0 18px;
+}
+ 
+#numaralar td, #numaralar th {
+border: 1px solid #ddd;
+padding: 8px;
+
+}
+ 
+#numaralar tr:nth-child(even)
+{background-color: #f2f2f2; 
+   
+}
+ 
+
+ 
+#numaralar th {
+padding-top: 12px;
+padding-bottom: 12px;
+text-align: left;
+background-color: #2c3e50;
+color: white;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
